@@ -15,6 +15,7 @@ A well-rounded camera calibration pipeline (in progress)  for central ray-pixel 
 
 # calibrate
 ./script/calibrate.sh <data_path>
+./script/calibrate.sh --sector <data_path>  # Using sector grid
 ```
 
 ## Image Undistortion and Stereo Rectification
@@ -25,3 +26,5 @@ cd build
 cmake ..
 make
 ```
+
+Refer to [main.cc](./src/main.cc) for more details.
